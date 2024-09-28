@@ -20,7 +20,7 @@ const Cards:React.FC<cardProp> = ({name, image, location, rating, reference}) =>
       <div className="mb-2">
         <h2 className='text-sm opacity-80'>{location}</h2>
       </div>
-      <div className="cursor-grab border-2 border-zinc-800 cursor-pointer hover:bg-zinc-800 w-fit rounded p-2 mt-4 font-medium text-yellow-400">
+      <div className="cursor-grab border-2 border-zinc-800  hover:bg-zinc-800 w-fit rounded p-2 mt-4 font-medium text-yellow-400">
         <span className='text-zinc-300'>Rating: </span>{rating}
       </div>
       <button className='bg-zinc-100 font-medium rounded w-full py-2 mt-10 text-black hover:bg-zinc-100/90 '>
